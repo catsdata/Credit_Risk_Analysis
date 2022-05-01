@@ -5,12 +5,12 @@
 1. [Overview](https://github.com/catsdata/Credit_Risk_Analysis#overview)
 2. [Resources](https://github.com/catsdata/Credit_Risk_Analysis#resources)
 3. [Results](https://github.com/catsdata/Credit_Risk_Analysis#results)
-    - [Oversampling - Random](http)
-    - [Oversampling - SMOTE](https:)
-    - [Undersampling - Cluster](https)
-    - [Combination - SMOTEENN](https:)
-    - [Ensemble - Balanced Forest]()
-    - [Ensemble - Easy]()
+    - [Oversampling - Random](https://github.com/catsdata/Credit_Risk_Analysis#oversampling---randomoversampler)
+    - [Oversampling - SMOTE](https://github.com/catsdata/Credit_Risk_Analysis#oversampling---smote)
+    - [Undersampling - Cluster](https://github.com/catsdata/Credit_Risk_Analysis#undersampling---clustercentroids)
+    - [Combination - SMOTEENN](https://github.com/catsdata/Credit_Risk_Analysis#combination-overunder---smoteenn)
+    - [Ensemble - Balanced Forest](https://github.com/catsdata/Credit_Risk_Analysis#ensemble---balancedrandomforestclassifier)
+    - [Ensemble - Easy](https://github.com/catsdata/Credit_Risk_Analysis#ensemble---easyensembleclassifier)
 4. [Summary](https://github.com/catsdata/Credit_Risk_Analysis#summary)
 
 

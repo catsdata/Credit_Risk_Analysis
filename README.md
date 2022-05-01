@@ -5,10 +5,12 @@
 1. [Overview](https://github.com/catsdata/Credit_Risk_Analysis#overview)
 2. [Resources](https://github.com/catsdata/Credit_Risk_Analysis#resources)
 3. [Results](https://github.com/catsdata/Credit_Risk_Analysis#results)
-    - [Linear Regression](http)
-    - [Summary Statistics](https:)
-    - [T-Tests](https)
-    - [Study Design](https:)
+    - [Oversampling - Random](http)
+    - [Oversampling - SMOTE](https:)
+    - [Undersampling - Cluster](https)
+    - [Combination - SMOTEENN](https:)
+    - [Ensemble - Balanced Forest]()
+    - [Ensemble - Easy]()
 4. [Summary](https://github.com/catsdata/Credit_Risk_Analysis#summary)
 
 
@@ -30,6 +32,18 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
     - Jupyter Notebook
 
 ## Results
+
+### Oversampling - RandomOverSampler
+
+### Oversampling - SMOTE
+
+### Undersampling - ClusterCentroids
+
+### Combination (over/under) - SMOTEENN
+
+### Ensemble - BalancedRandomForestClassifier
+
+### Ensemble - EasyEnsembleClassifier
 
 Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 

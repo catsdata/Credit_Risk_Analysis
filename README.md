@@ -21,11 +21,12 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 ## Resources
 
 - Data Sources: 
-    - [data](https)
-    - [Suspension Data](https:)
+    - [Loan Stats](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Resources/LoanStats_2019Q1.csv)
 - Software:  
-    - RStudio
-    - R 4.1.3
+    - Python
+    - Pandas
+    - SKLearn
+    - IMlearn
     - Jupyter Notebook
 
 ## Results

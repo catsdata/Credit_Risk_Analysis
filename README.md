@@ -26,6 +26,7 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
     - [Loan Stats](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Resources/LoanStats_2019Q1.csv)
 - Software/Packages:  
     - Supervised Machine Learning (mlenvs)
+        - Python
         - Pandas
         - SKLearn
         - IMlearn

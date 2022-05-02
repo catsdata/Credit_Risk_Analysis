@@ -35,39 +35,39 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ### Oversampling - RandomOverSampler
 
-![acc1](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy1.PNG)
-![conf1](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion1.PNG)
-![class1](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification1.PNG)
+<p>![acc1](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy1.PNG)</p>
+<p>![conf1](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion1.PNG)</p>
+<p>![class1](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification1.PNG)</p>
 
 ### Oversampling - SMOTE
 
-![acc2](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy2.PNG)
-![conf2](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion2.PNG)
-![class2](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification2.PNG)
+<p>![acc2](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy2.PNG)</p>
+<p>![conf2](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion2.PNG)</p>
+<p>![class2](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification2.PNG)</p>
 
 ### Undersampling - ClusterCentroids
 
-![acc3](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy3.PNG)
-![conf3](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion3.PNG)
-![class3](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification3.PNG)
+<p>![acc3](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy3.PNG)</p>
+<p>![conf3](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion3.PNG)</p>
+<p>![class3](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification3.PNG)</p>
 
 ### Combination (over/under) - SMOTEENN
 
-![acc4](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy4.PNG)
-![conf4](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion4.PNG)
-![class4](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification4.PNG)
+<p>![acc4](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy4.PNG)</p>
+<p>![conf4](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion4.PNG)</p>
+<p>![class4](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification4.PNG)</p>
 
 ### Ensemble - BalancedRandomForestClassifier
 
-![acc5](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy5.PNG)
-![conf5](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion5.PNG)
-![class5](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification5.PNG)
+<p>![acc5](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy5.PNG)</p>
+<p>![conf5](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion5.PNG)</p>
+<p>![class5](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification5.PNG)</p>
 
 ### Ensemble - EasyEnsembleClassifier
 
-![acc6](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy6.PNG)
-![conf6](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion6.PNG)
-![class6](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification6.PNG)
+<p>![acc6](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy6.PNG)</p>
+<p>![conf6](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion6.PNG)</p>
+<p>![class6](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification6.PNG)</p>
 
 Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 

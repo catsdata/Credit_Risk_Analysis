@@ -35,6 +35,10 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ### Oversampling - RandomOverSampler
 
+- Accuracy 64.1%
+- High Risk Precision 0.01
+- High Risk Recall 0.60
+
 ![acc1](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy1.PNG)
 
 ![conf1](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion1.PNG)
@@ -42,6 +46,10 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 ![class1](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification1.PNG)
 
 ### Oversampling - SMOTE
+
+- Accuracy 63.8%
+- High Risk Precision 0.01
+- High Risk Recall 0.60
 
 ![acc2](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy2.PNG)
 
@@ -51,6 +59,10 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ### Undersampling - ClusterCentroids
 
+- Accuracy 63.7%
+- High Risk Precision 0.01
+- High Risk Recall 0.62
+
 ![acc3](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy3.PNG)
     
 ![conf3](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion3.PNG)
@@ -58,6 +70,10 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 ![class3](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification3.PNG)
 
 ### Combination (over/under) - SMOTEENN
+
+- Accuracy 59.5%
+- High Risk Precision 0.01
+- High Risk Recall 0.70
 
 ![acc4](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy4.PNG)
 
@@ -67,6 +83,10 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ### Ensemble - BalancedRandomForestClassifier
 
+- Accuracy 78.8%
+- High Risk Precision 0.04
+- High Risk Recall 0.67
+
 ![acc5](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy5.PNG)
 
 ![conf5](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion5.PNG)
@@ -75,14 +95,21 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ### Ensemble - EasyEnsembleClassifier
 
+- Accuracy 92.5%
+- High Risk Precision 0.07
+- High Risk Recall 0.91
+
 ![acc6](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy6.PNG)
 
 ![conf6](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion6.PNG)
 
 ![class6](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification6.PNG)
 
-Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+Scores to look out for are the highest Accuracy, precision and recall.  The lower the numbers, the higher chances of false results.
 
 ## Summary
 
-Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+![summary](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/summary.PNG)
+
+As seen from above, the over and undersampling all stayed fairly consistent with results; however the ensemble algorithms performed substantially better, with the Easy Ensemble Classifier providing the most accurate results and should be used for this credit analysis.
+

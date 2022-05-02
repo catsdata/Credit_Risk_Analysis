@@ -16,58 +16,70 @@
 
 ## Overview
 
-Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, you’ll need to employ different techniques to train and evaluate models with unbalanced classes. Jill asks you to use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
+Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, you’ll need to employ different techniques to train and evaluate models with unbalanced classes. Jill has asked us to use imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
 
-Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, you’ll oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, you’ll use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Next, you’ll compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Once you’re done, you’ll evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
+Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, we oversampled the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. We then used a combinatorial approach of over- and undersampling using the SMOTEENN algorithm.  To reduce bias, we compared two new machine learning models, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. 
 
 ## Resources
 
 - Data Sources: 
     - [Loan Stats](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Resources/LoanStats_2019Q1.csv)
-- Software:  
+- Software/Packages:  
     - Supervised Machine Learning (mlenvs)
-    - Pandas
-    - SKLearn
-    - IMlearn
+        - Pandas
+        - SKLearn
+        - IMlearn
     - Jupyter Notebook
 
 ## Results
 
 ### Oversampling - RandomOverSampler
 
-<p>![acc1](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy1.PNG)</p>
-<p>![conf1](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion1.PNG)</p>
-<p>![class1](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification1.PNG)</p>
+![acc1](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy1.PNG)
+
+![conf1](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion1.PNG)
+
+![class1](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification1.PNG)
 
 ### Oversampling - SMOTE
 
-<p>![acc2](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy2.PNG)</p>
-<p>![conf2](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion2.PNG)</p>
-<p>![class2](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification2.PNG)</p>
+![acc2](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy2.PNG)
+
+![conf2](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion2.PNG)
+
+![class2](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification2.PNG)
 
 ### Undersampling - ClusterCentroids
 
-<p>![acc3](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy3.PNG)</p>
-<p>![conf3](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion3.PNG)</p>
-<p>![class3](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification3.PNG)</p>
+![acc3](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy3.PNG)
+    
+![conf3](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion3.PNG)
+    
+![class3](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification3.PNG)
 
 ### Combination (over/under) - SMOTEENN
 
-<p>![acc4](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy4.PNG)</p>
-<p>![conf4](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion4.PNG)</p>
-<p>![class4](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification4.PNG)</p>
+![acc4](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy4.PNG)
+
+![conf4](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion4.PNG)
+
+![class4](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification4.PNG)
 
 ### Ensemble - BalancedRandomForestClassifier
 
-<p>![acc5](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy5.PNG)</p>
-<p>![conf5](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion5.PNG)</p>
-<p>![class5](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification5.PNG)</p>
+![acc5](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy5.PNG)
+
+![conf5](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion5.PNG)
+
+![class5](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification5.PNG)
 
 ### Ensemble - EasyEnsembleClassifier
 
-<p>![acc6](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy6.PNG)</p>
-<p>![conf6](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion6.PNG)</p>
-<p>![class6](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification6.PNG)</p>
+![acc6](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/accuracy6.PNG)
+
+![conf6](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/confusion6.PNG)
+
+![class6](https://github.com/catsdata/Credit_Risk_Analysis/blob/main/Images/classification6.PNG)
 
 Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
